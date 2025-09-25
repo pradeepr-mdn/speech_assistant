@@ -9,18 +9,20 @@ This is a Raspberry Pi project for **speech-to-text (STT)** and **text-to-speech
 
 ## Project Structure
 
+```text
 speech_assistant/
-├── parakeet_stt.py # STT script
-├── main_kokoro_tts.py # TTS script
-├── README.md # Project documentation
-├── .gitignore # Ignored files/folders
-├── parakeet_env/ # Python virtual environment (ignored)
-├── models/ # Model files (ignored in Git)
-│ ├── kokoro-v1.0.onnx
-│ └── voices-v1.0.bin
-├── output.wav # Sample output audio (ignored)
-└── temp_input.txt # Temporary text input (ignored)
+├── parakeet_stt.py       # STT script
+├── main_kokoro_tts.py    # TTS script
+├── README.md             # Project documentation
+├── .gitignore            # Ignored files/folders
+├── parakeet_env/         # Python virtual environment (ignored)
+├── models/               # Model files (ignored in Git)
+│   ├── kokoro-v1.0.onnx
+│   └── voices-v1.0.bin
+├── output.wav            # Sample output audio (ignored)
+└── temp_input.txt        # Temporary text input (ignored)
 
+```
 
 ---------------------------------------------------------------------------------
 
