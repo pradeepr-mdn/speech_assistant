@@ -37,16 +37,17 @@ source parakeet_env/bin/activate
 Install dependencies:
 pip install -r requirements.txt
 ---------------------------------------------------------------------------------
-Download the models manually
+Download the required model and voices files using these commands:
 Place the following files in the models/ folder:
 
-kokoro-v1.0.onnx
-wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/kokoro-v1.0.onnx
+version:- kokoro-v1.0.onnx
+cmd:- wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/kokoro-v1.0.onnx
 
-voices-v1.0.bin
-wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/voices-v1.0.bin
 
-Download the required model and voices files using these commands:
+version:- voices-v1.0.bin
+cmd :- wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/voices-v1.0.bin
+
+
 Note: Models are ignored in Git due to large file size.
 
 ---------------------------------------------------------------------------------
