@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+myenv/
+venv/
+env/
+parakeet_env/
+
+# Models (too large for Git)
+models/
+
+# Audio files
+*.wav
+*.mp3
+
+# Temporary files
+temp_input.txt
+*.tmp
+*.log
