@@ -21,7 +21,7 @@ speech_assistant/
 ├── output.wav # Sample output audio (ignored)
 └── temp_input.txt # Temporary text input (ignored)
 
----
+
 ---------------------------------------------------------------------------------
 
 ## Setup Instructions
