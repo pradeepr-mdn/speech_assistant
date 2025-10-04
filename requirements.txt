@@ -8,6 +8,7 @@ charset-normalizer==3.4.3
 coloredlogs==15.0.1
 colorlog==6.9.0
 csvw==3.6.0
+dbus-python==1.4.0
 decorator==5.2.1
 dlinfo==2.0.0
 EbookLib==0.19
@@ -42,9 +43,11 @@ platformdirs==4.4.0
 pooch==1.8.2
 protobuf==6.32.1
 pycparser==2.23
+pygame==2.6.1
 PyMuPDF==1.26.4
 pymupdf4llm==0.0.27
 pyparsing==3.2.5
+pysmbc==1.0.23
 python-dateutil==2.9.0.post0
 PyYAML==6.0.2
 rdflib==7.2.1
@@ -68,3 +71,7 @@ tqdm==4.67.1
 typing_extensions==4.15.0
 uritemplate==4.2.0
 urllib3==2.5.0
+opencv-python
+ultralytics
+pytz
+ 
