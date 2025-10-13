@@ -19,3 +19,6 @@ models/
 temp_input.txt
 *.tmp
 *.log
+
+# Environment variables
+.env
