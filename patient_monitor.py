@@ -36,8 +36,8 @@ logging.getLogger("requests").setLevel(logging.WARNING)
 # ==== Speech & TTS Setup ====
 recognizer_lock = threading.Lock()
 stt_model = onnx_asr.load_model("nemo-parakeet-tdt-0.6b-v2")
-kokoro_model_path = "/home/mdn/Desktop/work/speech-assistant/models/kokoro-v1.0.onnx"
-kokoro_voices_path = "/home/mdn/Desktop/work/speech-assistant/models/voices-v1.0.bin"
+kokoro_model_path = "/home/mdn/sens-able-prama/speech-assistant/models/kokoro-v1.0.onnx"
+kokoro_voices_path = "/home/mdn/sens-able-prama/speech-assistant/models/voices-v1.0.bin"
 
 # ======= Load Keywords from CSV =======
 def load_keywords_from_csv(csv_filepath):

@@ -1,0 +1,12 @@
+opencv-python-headless>=4.7.0
+numpy
+sounddevice
+ultralytics
+pytz
+requests
+onnxruntime
+soundfile
+onnx-asr
+picamera2
+kokoro-tts
+azure-cognitiveservices-speech==1.46.0
